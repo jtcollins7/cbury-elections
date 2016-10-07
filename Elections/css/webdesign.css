@@ -1,0 +1,191 @@
+html{
+	height: 100%;
+}
+.err{
+	color:red;
+}
+body {
+	font-family: 'Philosopher', cursive;
+	color: rgb(0, 30, 98);
+	background: rgb(240,249,255); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(240,249,255,1) 0%, rgba(203,235,255,1) 47%, rgba(161,219,255,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(240,249,255,1) 0%,rgba(203,235,255,1) 47%,rgba(161,219,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(240,249,255,1) 0%,rgba(203,235,255,1) 47%,rgba(161,219,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#a1dbff',GradientType=0 ); /* IE6-9 */
+	margin:0;
+	background-color: rgb(0, 30, 98);
+	background-size: 100% 100%;
+	height: 100%;
+	}
+.login{
+	width:40%;
+	margin: 4% auto 0 auto;
+	border: 3px solid black;
+	background: #FFFAFA;
+	padding:10px;
+}
+.profile{
+	width:40%;
+	margin: 4% auto 0 auto;
+	border: 3px solid black;
+	background: #FFFAFA;
+	padding:10px;
+
+}
+.result_info{
+	width:65%;
+	margin: 4% auto 0 auto;
+	border: 3px solid black;
+	background: #FFFAFA;
+}
+.info{
+	width: 55%;
+	height: 65%;
+	margin: 4% auto 0 auto;
+	border: 3px solid black;
+	background: #FFFAFA;
+	min-width:55%;
+	min-height:65%;
+	overflow: auto;
+}
+
+p {
+}
+
+h2{
+	font-size: 300%;
+	color: rgb(0, 30, 98);
+
+	font-family: Century Gothic, bold;
+	width: 100%;
+	text-align: center;
+	font-family:'Philosopher', cursive;
+}
+
+form {
+	width: 100%;
+	height: auto;
+}
+
+table {
+	width: 100%;
+}
+#mock_table th {
+	border-bottom:1px solid black;
+}
+#mock_table td {
+	width:33%;
+	text-align:center;
+	vertical-align:top;
+}
+#user_tbl{
+	border-spacing: 0;
+    	border-collapse: collapse;
+}
+
+#user_tbl td{
+	text-align:center;
+	vertical-align:top;
+	padding:10px;
+}
+#user_tbl tr:{
+	background-color:#fff;
+	border-bottom:1px solid #ddd;
+}
+.header{
+	border-bottom: 3px black solid;
+	text-align:center;
+	color: rgb(0, 30, 98);
+	width: 100%;
+	background: #FFFAFA;
+	margin:0;}
+
+p {
+	font-size: 150%;
+}
+img.cand{
+	height:25%;
+	width:50%;
+}
+
+label > input + img{ /* IMAGE STYLES */
+  cursor:pointer;
+  border:2px solid transparent;
+}
+
+label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
+  border:2px solid #f00;
+}
+
+img.party {
+	display: inline-block;
+	margin-top: .75em;
+	width:50%;
+	height:40%;
+}
+
+#party {
+	height: 50%;
+	width: 40%;
+	margin-left: 5%;
+}
+
+
+#rep {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+
+
+#seal {
+	height: 4em;
+	width: 4em;
+	padding-right: 10px;
+}
+
+h1 {
+	display: inline-block;
+	vertical-align: 60%;
+	border-bottom: 10px double #ce3943;
+	font-family: 'Philosopher', cursive;
+	font-size: 250%;
+}
+	
+input{
+	margin: 0 auto;
+}
+
+
+th {
+	font-size: 1.5em;
+	}
+.login-tbl{
+	width:50%;
+	margin:0 auto;
+}
+.login-tbl td{
+	padding:10px;
+}
+.login-text{
+	height:20px;
+	width:100%;
+}
+.login-text:focus{
+	border:1px solid rgb(0, 30, 98);
+}
+
+.btn{
+	background-color:#FFFAFA;
+	color: rgb(0, 30, 98);
+	font-family: 'Philosopher', cursive;
+	width:100px;
+	height:40px;
+	border:1px solid rgb(0, 30, 98);
+	cursor: pointer;
+}
+.btn:hover{
+	background-color:#f5f5f5;
+	color:#ce3943;
+	border:1px solid #ce3943;
+}
